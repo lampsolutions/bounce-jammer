@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: boja\n"
+"POT-Creation-Date: 2016-06-06 13:52+0100\n"
+"PO-Revision-Date: 2016-06-06 13:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: Affiliate solutions\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../aff-sol-updater/aff-sol-updater.php:171
+msgid "An unknown error occured while connecting the plugin-API."
+msgstr ""
+"Ein unbekannter Fehler ist aufgetreten während des Versuchs die Plugin API "
+"aufzurufen."
+
+#: ../aff-sol-updater/aff-sol-updater.php:175
+msgid "Unknown error."
+msgstr "Unbekannter Fehler."
+
+#: ../lib/BOJA_MetaBoxes.php:16 ../lib/BOJA_Admin.php:18
+#: ../lib/BOJA_Admin.php:19 ../lib/BOJA_Admin.php:37 ../lib/BOJA_Admin.php:38
+#: ../lib/BOJA_Admin.php:62 ../lib/BOJA_Admin.php:63
+msgid "Bounce Jammer"
+msgstr "Bounce Jammer"
+
+#: ../lib/BOJA_MASE_Zone.php:17
+#, php-format
+msgid "%d Ad in Zone active"
+msgstr "%d Ad in Zone aktiv"
+
+#: ../lib/BOJA_MASE_Zone.php:19
+#, php-format
+msgid "%d Ads in Zone active"
+msgstr "%d Ads in Zone aktiv"
+
+#: ../lib/BOJA_MASE_Zone.php:45
+msgid "Zone Configurator"
+msgstr "Zonen Konfigurator"
+
+#: ../lib/BOJA_MASE_Zone.php:51
+msgid "Enable Ad in Zone"
+msgstr "Aktiviere Ad in der Zone"
+
+#: ../lib/BOJA_MASE_Zone.php:52
+msgid "ID"
+msgstr "ID"
+
+#: ../lib/BOJA_MASE_Zone.php:53
+msgid "Name"
+msgstr "Name"
+
+#: ../lib/BOJA_MASE_Zone.php:55
+msgid "Tags"
+msgstr "Tags"
+
+#: ../lib/BOJA_MASE_Zone.php:56
+msgid "Country"
+msgstr "Land"
+
+#: ../lib/BOJA_MASE_Zone.php:57
+msgid "Device"
+msgstr "Device"
+
+#: ../lib/BOJA_MASE_Zone.php:58
+msgid "URL"
+msgstr "URL"
+
+#: ../lib/BOJA_MASE_Zone.php:60
+msgid "Hours of Day"
+msgstr "Stunden des Tags"
+
+#: ../lib/BOJA_MASE_Zone.php:64
+msgid "Days of Week"
+msgstr "Wochentage"
+
+#: ../lib/BOJA_MASE_Zone.php:68
+msgid "Weight"
+msgstr "Gewichtung"
+
+#: ../lib/BOJA_MASE_Zone.php:97
+msgid "Not available"
+msgstr "Nicht verfügbar"
+
+#: ../lib/BOJA_MASE_Zone.php:120
+msgid "Desktop"
+msgstr "Desktop"
+
+#: ../lib/BOJA_MASE_Zone.php:121
+msgid "Smartphone"
+msgstr "Smartphone"
+
+#: ../lib/BOJA_MASE_Zone.php:122
+msgid "Tablet"
+msgstr "Tablet"
+
+#: ../lib/BOJA_MASE_Zone.php:154
+msgid "Monday"
+msgstr "Montag"
+
+#: ../lib/BOJA_MASE_Zone.php:155
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: ../lib/BOJA_MASE_Zone.php:156
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: ../lib/BOJA_MASE_Zone.php:157
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: ../lib/BOJA_MASE_Zone.php:158
+msgid "Friday"
+msgstr "Freitag"
+
+#: ../lib/BOJA_MASE_Zone.php:159
+msgid "Saturday"
+msgstr "Samstag"
+
+#: ../lib/BOJA_MASE_Zone.php:160
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: ../lib/BOJA_MASE_Zone.php:176
+msgid "Close"
+msgstr "Schliessen"
+
+#: ../lib/BOJA_MASE_Zone.php:177
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: ../lib/BOJA_Admin.php:29 ../lib/BOJA_Admin.php:30 ../lib/BOJA_Admin.php:48
+#: ../lib/BOJA_Admin.php:49 ../lib/BOJA_Admin.php:73 ../lib/BOJA_Admin.php:74
+#: ../lib/Pages/Settings.php:6
+msgid "General"
+msgstr "Allgemein"
+
+#: ../lib/BOJA_Admin.php:96 ../lib/BOJA_Admin.php:119
+msgid "The entered Redirect Percent value is invalid. (Valid values 1-100)."
+msgstr "Der eingegebene Prozentwert ist ungültig. (Gültiger Bereich 1-100)."
+
+#: ../lib/BOJA_Admin.php:101 ../lib/BOJA_Admin.php:124
+msgid "The entered Target URL is invalid."
+msgstr "Die eingegebene Ziel URL ist ungültig."
+
+#: ../lib/Pages/Settings.php:11
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../lib/Pages/Settings.php:16
+msgid "Help"
+msgstr "Hilfe"
+
+#: ../lib/Pages/Settings.php:29
+msgid "Bounce Jammer Status"
+msgstr "Bounce Jammer Status"
+
+#: ../lib/Pages/Settings.php:35
+msgid "Licensed"
+msgstr "Lizenziert"
+
+#: ../lib/Pages/Settings.php:38
+msgid "Yes"
+msgstr "Ja"
+
+#: ../lib/Pages/Settings.php:40
+msgid "No"
+msgstr "Nein"
+
+#: ../lib/Pages/Settings.php:45
+msgid "Author"
+msgstr "Autor"
+
+#: ../lib/Pages/Settings.php:51
+msgid "Plugin URL"
+msgstr "Plugin URL"
+
+#: ../lib/Pages/Settings.php:53
+msgid "https://www.affiliate-solutions.xyz/"
+msgstr "https://www.affiliate-solutions.xyz/"
+
+#: ../lib/Pages/Settings.php:57
+msgid "Plugin Version"
+msgstr "Plugin Version"
+
+#: ../lib/Pages/Settings.php:85
+msgid "Activate License"
+msgstr "Aktiviere Lizenz"
+
+#: ../lib/Pages/Settings.php:93
+msgid "The entered license key is not valid, please try again."
+msgstr "Der eingegebene Lizenzschlüssel ist ungültig, bitte erneut versuchen."
+
+#: ../lib/Pages/Settings.php:98
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: ../lib/Pages/Settings.php:112 ../lib/Pages/Settings.php:198
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: ../lib/Pages/Settings.php:122 ../lib/Pages/Settings.php:208
+msgid "Globally Enable Bounce Jammer"
+msgstr "Bounce Jammer global aktivieren"
+
+#: ../lib/Pages/Settings.php:125 ../lib/Pages/Settings.php:211
+msgid "Enable Bounce Jammer for all Pages/Posts"
+msgstr "Bounce Jammer für alle Seiten/Beiträge aktivieren"
+
+#: ../lib/Pages/Settings.php:129 ../lib/Pages/Settings.php:215
+msgid "Target URL"
+msgstr "Ziel URL"
+
+#: ../lib/Pages/Settings.php:136 ../lib/Pages/Settings.php:222
+msgid "Redirect Timeout"
+msgstr "Umleitungs Timeout"
+
+#: ../lib/Pages/Settings.php:140 ../lib/Pages/Settings.php:226
+#: ../lib/Pages/MetaBox.php:30
+msgid "Seconds"
+msgstr "Sekunden"
+
+#: ../lib/Pages/Settings.php:143 ../lib/Pages/Settings.php:229
+msgid "Disable the redirect if the user stayed at least X seconds on the page"
+msgstr ""
+"Die Umleitung deaktivieren, falls der User bereits seit X Sekunden auf der "
+"Webseite ist"
+
+#: ../lib/Pages/Settings.php:147 ../lib/Pages/Settings.php:233
+msgid "Redirect Percent"
+msgstr "Umleitungschance in Prozent"
+
+#: ../lib/Pages/Settings.php:151 ../lib/Pages/Settings.php:237
+#: ../lib/Pages/MetaBox.php:41
+msgid "%"
+msgstr "%"
+
+#: ../lib/Pages/Settings.php:154 ../lib/Pages/Settings.php:240
+msgid "Redirect only some users not all, default is 100 percent."
+msgstr "Definiere, wieviel % der Webseitenbesucher umgeleitet werden sollen"
+
+#: ../lib/Pages/Settings.php:158
+msgid "Redirect Entry Page Only"
+msgstr "Einstiegsseite Umleitung"
+
+#: ../lib/Pages/Settings.php:161 ../lib/Pages/Settings.php:247
+msgid "Redirect the user only on the entry page."
+msgstr "Webseitenbesucher nur beim versuchten Verlassen der Webseite umleiten."
+
+#: ../lib/Pages/Settings.php:165
+msgid "Bounce Jammer Override Widget"
+msgstr "Bounce Jammer Widget"
+
+#: ../lib/Pages/Settings.php:167
+msgid "Enable Bounce Jammer Override Widget for the following Post Types:"
+msgstr "Aktiviere das Bounce Jammer Widget nur bei den folgenden Post-Typen:"
+
+#: ../lib/Pages/Settings.php:179 ../lib/Pages/Settings.php:254
+msgid ""
+"Failed: The selected/uploaded file is not a valid MaxMind GeoIP Database "
+"File."
+msgstr ""
+"Failed: The selected/uploaded file is not a valid MaxMind GeoIP Database "
+"File."
+
+#: ../lib/Pages/Settings.php:185 ../lib/Pages/Settings.php:260
+#: ../lib/Pages/Settings.php:293 ../lib/Pages/Settings.php:362
+#: ../lib/Pages/MetaBox.php:111
+msgid "Save"
+msgstr "Speichern"
+
+#: ../lib/Pages/Settings.php:244
+msgid "Redirect only on entry page"
+msgstr "Webseitenbesucher nur beim versuchten Verlassen der Webseite umleiten"
+
+#: ../lib/Pages/Settings.php:273
+msgid "Disable Global Multiblog Bounce Jammer Settings"
+msgstr "Deaktiviere globale Multiblog Bounce Jammer Einstellungen"
+
+#: ../lib/Pages/Settings.php:283
+msgid "Enable Single Blog Bounce Jammer configuration"
+msgstr "Aktiviere Single Blog Bounce Jammer Einstellungen"
+
+#: ../lib/Pages/Settings.php:306 ../lib/Pages/MetaBox.php:55
+msgid "moreAds SE Integration"
+msgstr "moreAds SE Integration"
+
+#: ../lib/Pages/Settings.php:314 ../lib/Pages/MetaBox.php:63
+msgid "moreads SE Zone"
+msgstr "moreads SE Zone"
+
+#: ../lib/Pages/Settings.php:317 ../lib/Pages/MetaBox.php:66
+msgid "Use a moreAds SE Zone for the Bounce Jammer Target URL"
+msgstr "Benutze eine moreAds SE Zone für die Bounce Jammer Ziel URL"
+
+#: ../lib/Pages/Settings.php:321 ../lib/Pages/MetaBox.php:70
+msgid "Configure Zone"
+msgstr "Konfiguriere Zone"
+
+#: ../lib/Pages/Settings.php:327 ../lib/Pages/MetaBox.php:76
+msgid "Start Zone Configurator"
+msgstr "Zonen-Konfigurator starten"
+
+#: ../lib/Pages/Settings.php:346 ../lib/Pages/MetaBox.php:95
+msgid "Bounce Jammer Fallback URL"
+msgstr "Bounce Jammer Fallback URL"
+
+#: ../lib/Pages/Settings.php:349 ../lib/Pages/MetaBox.php:98
+msgid "Use the current Bounce Jammer URL as a Fallback if no Ad was found"
+msgstr ""
+"Benutze die aktuelle Bounce Jammer URL als Fallback, falls kein Werbemittel "
+"gefunden worden ist"
+
+#: ../lib/Pages/Settings.php:356 ../lib/Pages/MetaBox.php:105
+msgid ""
+"moreAds SE is not installed, please install moreAds SE to enable additional "
+"Features, for example Device and Country based Bounce Jammer Target URLs"
+msgstr ""
+"moreAds SE ist nicht installiert, bitte installiere moreAds SE um weitere "
+"Funktionen freizuschalten, wie z.B. Geräte- und Besucher-Land- basierende "
+"Ziel URLs"
+
+#: ../lib/Pages/Settings.php:378
+msgid "German Video Tutorials"
+msgstr "Deutsche Video Tutorials"
+
+#: ../lib/Pages/Settings.php:391
+msgid "Support"
+msgstr "Support"
+
+#: ../lib/Pages/Settings.php:398
+msgid "Support Forum:"
+msgstr "Support Forum:"
+
+#: ../lib/Pages/Settings.php:405
+msgid "Facebook Group:"
+msgstr "Facebook Gruppe:"
+
+#: ../lib/Pages/Settings.php:421
+msgid "Social Networks"
+msgstr "Soziale Netzwerke"
+
+#: ../lib/Pages/Settings.php:506
+msgid "Additional Plugins of Affiliate solutions"
+msgstr "Weitere Plugins von Affiliate solutions"
+
+#: ../lib/Pages/Settings.php:514
+msgid "https://wordpress.org/plugins/nm404/"
+msgstr "https://de.wordpress.org/plugins/nm404/"
+
+#: ../lib/Pages/Settings.php:524
+msgid "https://offer.affiliate-solutions.xyz/digi2mailpoet-en/"
+msgstr "https://offer.affiliate-solutions.xyz/digi2mailpoet-de/"
+
+#: ../lib/Pages/Settings.php:534
+msgid "https://offer.affiliate-solutions.xyz/customer-retargeting-en/"
+msgstr "https://offer.affiliate-solutions.xyz/customer-retargeting-de/"
+
+#: ../lib/Pages/Settings.php:544
+msgid "https://offer.affiliate-solutions.xyz/moreads-se-premium-en/"
+msgstr "https://offer.affiliate-solutions.xyz/moreads-se-premium-de/"
+
+#: ../lib/Pages/MetaBox.php:8
+msgid "Bounce Jammer Mode"
+msgstr "Bounce Jammer Modus"
+
+#: ../lib/Pages/MetaBox.php:11
+msgid "Use global Bounce Jammer Settings for this Page"
+msgstr "Benutze globale Bounce Jammer Einstellungen für diese Seite"
+
+#: ../lib/Pages/MetaBox.php:13
+msgid "Force Enable Bounce Jammer for this Page"
+msgstr "Bounce Jammer auf dieser Seite aktivieren"
+
+#: ../lib/Pages/MetaBox.php:15
+msgid "Force Disable Bounce Jammer for this Page"
+msgstr "Bounce Jammer auf dieser Seite deaktivieren"
+
+#: ../lib/Pages/MetaBox.php:19
+msgid "Override Target URL"
+msgstr "Überschreibe Ziel URL"
+
+#: ../lib/Pages/MetaBox.php:26
+msgid "Override Redirect Timeout"
+msgstr "Überschreibe Umleitungs-Timeout"
+
+#: ../lib/Pages/MetaBox.php:33
+msgid "Disable the redirect if the user stayed at least X seconds on this page"
+msgstr ""
+"Deaktiviere die Umleitung, falls der Besucher bereits seit X Sekunden auf "
+"der Webseite sich befindet"
+
+#: ../lib/Pages/MetaBox.php:37
+msgid "Override Redirect Percent"
+msgstr "Überschreibe Umleitungs-Chance Prozent:"
+
+#: ../lib/Pages/MetaBox.php:44
+msgid "Redirect only some users not all, default is 100 percent"
+msgstr "Definiere, wieviel % der Webseitenbesucher umgeleitet werden sollen"
+
+#~ msgid "Support & Social Sharing"
+#~ msgstr "Support & Social Sharing"
+
+#~ msgid "Facebook Fanpage:"
+#~ msgstr "Facebook Fanpage:"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Youtube"
+#~ msgstr "Youtube"
+
+#~ msgid "Google +"
+#~ msgstr "Google +"
