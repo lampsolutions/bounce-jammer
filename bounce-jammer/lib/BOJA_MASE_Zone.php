@@ -208,8 +208,8 @@ class BOJA_MASE_Zone {
                 if(isset($ad_config['active']) && isset($ad_config['active']) == "1") {
                     $zone_settings[(int) $ad_id] = array(
                         'weight' => isset($_REQUEST['ad'][$ad_id]['weight']) && $_REQUEST['ad'][$ad_id]['weight'] > 0 ? intval($_REQUEST['ad'][$ad_id]['weight']) : 1,
-                        'hours' => isset($_REQUEST['ad'][$ad_id]['hours']) ? $_REQUEST['ad'][$ad_id]['hours'] : false,
-                        'days' => isset($_REQUEST['ad'][$ad_id]['days']) ? $_REQUEST['ad'][$ad_id]['days'] : false,
+                        'hours' => isset($_REQUEST['ad'][$ad_id]['hours']) ? implode(",", array_map('intval', explode(",", $_REQUEST['ad'][$ad_id]['hours']))) : false,
+                        'days' => isset($_REQUEST['ad'][$ad_id]['days']) ? implode(",", array_map('intval', explode(",", $_REQUEST['ad'][$ad_id]['days']))) : false,
                     );
                 }
             }

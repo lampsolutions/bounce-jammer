@@ -3,7 +3,7 @@
 Plugin Name:        Bounce Jammer
 Plugin URI:         https://github.com/lampsolutions/bounce-jammer
 Description:        Bounce Jammer - Monetize your Bounce Rate
-Version:            1.1.5
+Version:            1.1.6
 Author:             LAMP solutions GmbH
 Author URI:         https://www.lamp-solutions.de/
 License:            GPLv2

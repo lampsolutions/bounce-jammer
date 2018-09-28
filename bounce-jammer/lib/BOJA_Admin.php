@@ -82,15 +82,21 @@ class BOJA_Admin {
 
         if(isset($_POST['boja_set_settings']) && $_POST['boja_set_settings']== "1" && !is_network_admin() ) {
             BOJA::$settings['enable_global'] = isset($_POST['enable_global']) ? true : false;
-            BOJA::$settings['target'] = isset($_POST['target']) ? trim($_POST['target']) : '';
+            BOJA::$settings['target'] = isset($_POST['target']) ? esc_url($_POST['target'], array('https', 'http')) : '';
             BOJA::$settings['timeout'] = isset($_POST['timeout']) ? (int) $_POST['timeout'] : 30;
             BOJA::$settings['percent'] = isset($_POST['percent']) ? (int) $_POST['percent'] : 100;
             BOJA::$settings['redirect_entry_page_only'] = isset($_POST['redirect_entry_page_only']) ? 1 : 0;
-            BOJA::$settings['enable_post_types'] = isset($_POST['enable_post_types']) ? $_POST['enable_post_types'] : array();
+
+            // Validation
+            $post_types = isset($_POST['enable_post_types']) ? $_POST['enable_post_types'] : array();
+            $available_post_types = get_post_types( array( 'public' => false, 'name' => 'attachment' ), 'names', 'NOT' );
+            foreach($post_types as $post_type => $enabled) {
+                if(!in_array($post_type, $available_post_types)) unset($post_types[$post_type]);
+            }
+            BOJA::$settings['enable_post_types'] = $post_types;
 
             $errors = array();
 
-            // Validation
             if(BOJA::$settings['percent'] > 100 || BOJA::$settings['percent'] < 0) {
                 $errors[] = __('The entered Redirect Percent value is invalid. (Valid values 1-100).', BOJA_TEXT_DOMAIN);
                 BOJA::$settings['percent'] = 100;
@@ -100,13 +106,11 @@ class BOJA_Admin {
                 $errors[] = __('The entered Target URL is invalid.', BOJA_TEXT_DOMAIN);
                 BOJA::$settings['target'] = '';
             }
-
-            // enable_post_types
             
             update_option(BOJA_PREFIX.'settings', BOJA::$settings);
         } elseif(isset($_POST['boja_set_settings']) && $_POST['boja_set_settings']== "1" && is_network_admin() ) {
             BOJA::$mu_settings['enable_global'] = isset($_POST['enable_global']) ? true : false;
-            BOJA::$mu_settings['target'] = isset($_POST['target']) ? trim($_POST['target']) : '';
+            BOJA::$mu_settings['target'] = isset($_POST['target']) ? esc_url($_POST['target'], array('https', 'http')) : '';
             BOJA::$mu_settings['timeout'] = isset($_POST['timeout']) ? (int) $_POST['timeout'] : 30;
             BOJA::$mu_settings['percent'] = isset($_POST['percent']) ? (int) $_POST['percent'] : 100;
             BOJA::$mu_settings['redirect_entry_page_only'] = isset($_POST['redirect_entry_page_only']) ? 1 : 0;

@@ -42,7 +42,7 @@ class BOJA_MetaBoxes {
 
 
         if(isset($_POST['boja_mode'])) $options['boja_mode'] = intval($_POST['boja_mode']);
-        if(isset($_POST['boja_target'])) $options['target'] = esc_attr($_POST['boja_target']);
+        if(isset($_POST['boja_target'])) $options['target'] = esc_url($_POST['boja_target'], array('http', 'https'));
         if(isset($_POST['boja_timeout'])) $options['timeout'] = intval($_POST['boja_timeout']);
         if(isset($_POST['boja_percent'])) $options['percent'] = intval($_POST['boja_percent']);
 
